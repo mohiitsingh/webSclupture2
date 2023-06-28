@@ -1,0 +1,270 @@
+:root{
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --color1: #618695;
+    --color2: #F6F5F5;
+    --color3: #252623;
+    --color4: #484744;
+    --color5: #EEE7DF;
+}
+
+@media screen and (max-width: 1024px)  {
+
+    .container{
+        width: var(--container-width-md);
+        margin: 0 4rem;
+    }
+
+    /* navbar */
+    nav {
+        width: 1024px;
+       gap: 40px;
+    }
+
+    .logo div a{
+        margin-left: 0;
+    }
+
+    .contact{
+        width: 750px;
+        /* background-color: wheat; */
+    }
+
+    .navItems{
+        margin-left: 20px;
+    }
+
+    /* header */
+    header{
+        width: 800px;
+    }
+
+    .header_container{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 600px;
+        text-align: center;
+        
+    }
+
+    .header_left{
+        /* background-color: yellow; */
+        margin: 1rem;
+    }
+
+    .header_right{
+        margin: 1rem;
+    }
+
+    .header_right-image img{
+        width: 380px;
+        height: 380px;
+    }
+
+    /* our services section */
+    .section1_container{
+        margin-top: 15rem;
+        /* background-color: red; */
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .container{
+        width: 85%;
+    }
+
+    nav{
+        width: 850px;
+    }
+
+    #home{
+        left: 0;
+    }
+    
+    .nav_container{
+        width: 85%;
+    }
+
+    .navItems{
+        flex-direction: column;
+        position: absolute;
+        background-color: #9fb3bbfd;
+        left: -200%;
+        top: 100%;
+        min-width: 100%;
+        width: 100px;
+        padding-block: 10px;
+        height: 130px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .navItems.active{
+        left: 0;
+    }
+
+    .hamburger_div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
+        /* margin-top: 20px; */
+    }
+
+    /* header */
+    header{
+        width: 500px;
+    }
+
+    .header_container{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        height: 750px;
+        /* background-color: red; */
+    }
+
+    .header_left{
+        width: 65%;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        /* background-color: gainsboro; */
+        margin-left: 6rem;
+    }
+
+    /* our services section1 */
+    .section1_container{
+        margin-top: 0rem;
+        /* background-color: red; */
+    }
+
+    .section1_subsection{
+        flex-direction: column;
+        /* width: ; */
+    }
+
+    .card1{
+        width: 50%;
+    }
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .container{
+        /* width: 83%; */
+        width: 0%;
+        /* margin: 0 4rem; */
+        margin-left: 3rem;
+    }
+
+    .nav_container{
+        width: 83%;
+    }
+
+    nav{
+        margin: 0 auto;
+    }
+    
+    .contact{
+        display: none;
+    }
+
+    .hamburger_div{
+        margin-right: 0;
+    }
+
+    .header_left{
+        width: 75%;
+        margin-left: 1.8rem;
+        height: 310px;
+        /* background-color: yellow; */
+    }
+
+    .header_container{
+        width: 83%;
+        text-align: center;
+        height: 700px;
+        /* background-color: red; */
+    }
+
+    .header_left h1{
+        font-size: 1.7rem;
+        line-height: 40px;
+    }
+    
+    .header_left p{
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .header_left-btn{
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .header_left-btn1{
+        width: 120px;
+        font-size: 0.8rem;
+    }
+
+    .header_left-btn2{
+        width: 120px;
+        font-size: 0.8rem;
+    }
+
+    .header_right-image img{
+        width: 280px;
+        height: 280px;
+    }
+
+    /* our services section */
+    #section1_h1{
+        width: 300px;
+    }
+    
+   
+
+    .section1_subsection{
+        width: 300px;
+    }
+
+    .card1{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+    .nav_container{
+        margin: 0 auto;
+    }
+
+    
+    
+    .hamburger_div{
+        margin-right: 20px;
+    }
+
+    .header_left{
+        padding: 0;
+        margin: 0;
+        width: 45%;
+        margin-right: 4rem;
+        /* margin-left: -2rem; */
+        /* background-color: yellow; */
+    }
+
+    /* our services section */
+
+    .card1{
+        height: 400px;
+        width: 90%;
+    }
+}
+
