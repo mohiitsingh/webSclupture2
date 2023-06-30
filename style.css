@@ -419,3 +419,89 @@ textarea {
     color: var(--color4);
     border: 0.2px solid var(--color3);
 }
+
+
+/* ********************** PORTFOLIO SECTION *******************************8 */
+.portfolio{
+    height: auto;
+    /* background-color: red; */
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.portfolio h2{
+    color: var(--color2);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+    padding-top: 2rem;
+}
+
+.portfolio_card{
+    height: 400px ;
+}
+
+
+/* ****************************** OFFERING SECTION ***************************** */
+.offering{
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    background-color: var(--color4);
+    height: auto;
+}
+
+.offering h2{
+    color: var(--color2);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+    padding-top: 2rem;
+}
+
+.offering_section .feature_card{
+    width: 350px;
+    color: var(--color4);
+    height: 450px;
+}
+
+.offering_card div h4{
+    font-size: 28px;
+    text-align: center;
+    color: var(--color4);
+    margin-bottom: 2rem;
+}
+
+.offering div p{
+    font-size: 24px;
+    line-height: 45px;
+    /* background-color: red; */
+    margin-bottom: -2rem;
+    /* text-align: center; */
+}
+
+
+/* ******************************** BANNER 2 ******************************* */
+.banner2{
+    height: 160px;
+    margin-top: 6rem;
+    color: var(--color3);
+}
+
+.banner2-div{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-heading{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.second-heading{
+    font-size: 22px;
+    font-weight: bold;
+}

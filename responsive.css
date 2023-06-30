@@ -194,6 +194,15 @@
         width: 400px;
     }
 
+    /* ****************** BANNER 2 **************** */
+    .banner2{
+        text-align: center;
+    }
+
+    .banner2-div{
+        flex-direction: column;
+    }
+
 
 
 }
@@ -351,6 +360,49 @@
         padding: 0;
         padding: 0px 20px;
     }
+
+    /* ******************* PORTFOLIO SECTION *********************** */
+    .portfolio h2{
+        width: 300px;
+    }
+
+    /* ******************* OFFERING SECTION *************************** */
+    .offering h2{
+        width: 300px;
+    }
+
+    .offering{
+        /* background-color: yellow; */
+        width: 83%;
+    }
+
+    .offering_section .feature_card{
+        width: auto;
+    }
+
+    .offering_card div h4{
+        font-size: 25px;
+    }
+
+    .offering div p{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+
+    /* ******************** BANNER 2 SECTION **************************88 */
+    .banner2-div{
+        padding: 1rem;
+    }
+    
+    .second-heading{
+        font-size: 18px;
+    }
+
+    .first-heading{
+        font-size: 14px;
+    }
+
 
 }
 
