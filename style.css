@@ -281,6 +281,9 @@ header {
     width: 100%;
     height: 150px;
     margin-bottom: 15px;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card1 div p {
@@ -349,6 +352,9 @@ header {
     /* margin-top: 3px; */
     width: 100%;
     height: 150px;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -442,6 +448,13 @@ textarea {
     height: 400px ;
 }
 
+.portfolio_card div img{
+    object-fit: contain;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /* ****************************** OFFERING SECTION ***************************** */
 .offering{
@@ -504,4 +517,124 @@ textarea {
 .second-heading{
     font-size: 22px;
     font-weight: bold;
+}
+
+
+/* ************************* PORTFOLIO ************************* */
+.portfolio{
+    margin-bottom: 3rem;
+}
+
+
+/* ********************** FOOTER ********************************** */
+.footer{
+    margin-bottom: 1rem;
+    /* background-color: red; */
+}
+.footer_container{
+    border-top: 1px solid var(--color1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 2rem;
+    /* background-color: red; */
+    padding: 3rem 1rem 2rem 1rem;
+}
+
+.footer-1{
+    width: 24%;
+    /* background-color: red; */
+}
+
+.footer-1 input{
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
+
+.footer-1 input[type="email"]{
+    margin: 14px 0;
+}
+
+.footer-1 button{
+    width: 90%;
+    height: 32px;
+    border-radius: 5px;
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.footer-1 button:hover{
+    background-color: var(--color2);
+    color: var(--color1);
+}
+
+
+.footer-2{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.footer-2 a{
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: var(--color2);
+    transition: 0.1s ease-in-out;
+}
+
+.footer-2 a:hover{
+    transform: translateY(-2px);
+}
+
+
+.footer-3{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 0.8rem;
+}
+
+.footer-3 p{
+    display: flex;
+    align-items: start;
+    /* justify-content: center; */
+}
+
+.footer-3 span{
+    color: var(--color1);
+    height: 10px;
+    padding-right: 5px;
+}
+
+
+
+.footer_sections p{
+    transition: 0.1s ease-in-out;
+}
+
+.footer_sections p:hover{
+    transform: translateY(-2px);
+}
+
+
+
+.footer-4{
+    padding-top: 14px;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 0.8rem;
+}
+
+.footer h4{
+    text-align: center;
+    font-weight: normal;
+    /* font-size: 0.9rem; */
 }
